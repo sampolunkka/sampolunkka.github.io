@@ -46,7 +46,6 @@ a {
   color: #fde2e4;
 }
 .links {
-  width: 100%;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -87,7 +86,7 @@ a {
 
 /*Image modal*/
 .modal {
-  width: 90%;
+  width: 100%;
   height: 100vh;
   position: fixed;
   top: 0;
