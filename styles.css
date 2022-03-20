@@ -42,15 +42,16 @@ h1 {
   letter-spacing: 6px;
 }
 a {
-  margin: 10px 0px 20px 0px;
+  margin: 10px 5px 20px 5px;
   color: #fde2e4;
 }
 .links {
   flex-direction: column;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   padding: 20px 0px 20px 0px;
+  grid-template-columns: repeat(3, 1fr);
 }
 .gallery {
   display: grid;
@@ -100,7 +101,7 @@ a {
 .modal img {
   object-fit: scale-down;
   max-height: 100vh;
-  max-width: 90vw;
+  max-width: 95%;
 }
 
 .closeBtn {
