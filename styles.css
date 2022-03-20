@@ -13,6 +13,7 @@ body {
     background-image: linear-gradient(to bottom right, #1b3a4b, #4d194d);
     height: 100%;
     margin: 0;
+    background-color: #1b3a4b;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
